@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 *.exe
 
 
 *.out
 *.o
+=======
+p1.exe p2.exe
+>>>>>>> ff1d811 ( 02-pointer-arithmetic)
