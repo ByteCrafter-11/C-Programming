@@ -7,7 +7,7 @@ int main() {
     printf("Enter operator ( + - * /): ");
     scanf(" %c", &op);
 
-    printf("Enter teo numbers: ");
+    printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
     if (op == '+')

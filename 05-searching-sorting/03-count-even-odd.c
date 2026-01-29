@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, even = 0, odd = 0;
+    int n, even = 0,odd = 0;
 
     printf("Enter number of elements: ");
     scanf("%d", &n);
@@ -13,7 +13,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i< n; i++) {
         if (arr[i] % 2 == 0)
             even++;
         else

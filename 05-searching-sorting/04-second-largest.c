@@ -18,7 +18,7 @@ int main() {
         if (arr[i] > largest) {
             second = largest;
             largest = arr[i];
-        } else if (arr[i] > second && arr[i] != largest) {
+        } else if (arr[i]> second && arr[i] != largest) {
             second = arr[i];
         }
     }

@@ -13,10 +13,10 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    printf("Enter element to search: ");
+    printf("Enter elements to search: ");
     scanf("%d", &key);
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i< n; i++) {
         if (arr[i] == key) {
             printf("Found at position %d\n", i + 1);
             found = 1;
@@ -30,5 +30,3 @@ int main() {
 
     return 0;
 }
-
-

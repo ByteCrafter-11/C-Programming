@@ -14,4 +14,3 @@ int main() {
     printf("Length = %d\n", len);
     return 0;
 }
-
